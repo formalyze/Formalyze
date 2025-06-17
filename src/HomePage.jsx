@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <div>
+        console.log(
         <footer />
+        );
         <h1>gourav & nippu 😀</h1>
       </div>
     </>
