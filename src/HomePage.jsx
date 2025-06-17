@@ -1,13 +1,9 @@
 import React from "react";
-import footer from "./footer";
-
+import card from "./gmycard";
 function App() {
   return (
     <>
-      <div>
-        <footer />
-        <h1>gourav & nippu 😀</h1>
-      </div>
+      <card/>
     </>
   );
 }
