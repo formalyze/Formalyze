@@ -1,7 +1,4 @@
-function footer() {
-  let name = "Gurpreet";
-  let age = 20;
-  return name + age;
+function Footer() {
+  return <></>;
 }
-
-export default footer;
+export default Footer;
