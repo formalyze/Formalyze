@@ -7,11 +7,7 @@ const PORT = 5000;
 
 // ✅ MongoDB Atlas Connection
 mongoose.connect(
-  "mongodb+srv://infoformalyze:<db_password>@formalyze.dv1jm3q.mongodb.net/?retryWrites=true&w=majority&appName=Formalyze",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
+  "mongodb+srv://infoformalyze:gmoPEQxRSPcA3ZsJ@formalyze.dv1jm3q.mongodb.net/formalyze?retryWrites=true&w=majority&appName=Formalyze"
 )
 .then(() => console.log("🟢 Connected to MongoDB Atlas"))
 .catch((err) => console.error("❌ MongoDB connection error:", err));
