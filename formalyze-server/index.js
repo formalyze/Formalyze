@@ -7,7 +7,7 @@ const PORT = 5000;
 
 // ✅ MongoDB Atlas Connection
 mongoose.connect(
-  "mongodb+srv://mapmyissue:mapmyissue77@mapmyissue.fkad1n2.mongodb.net/mapmyissue?retryWrites=true&w=majority&appName=mapmyissue",
+  "mongodb+srv://infoformalyze:<db_password>@formalyze.dv1jm3q.mongodb.net/?retryWrites=true&w=majority&appName=Formalyze",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
